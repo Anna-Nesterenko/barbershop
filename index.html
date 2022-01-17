@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -24,27 +24,33 @@
     <!-- !header -->
 
     <header class="header">
-      <div class="container">
-        <a class="logo" href=""></a><img src="./imeges/logo.svg" alt="logo" />
+      <div class="container container--flex">
+        <a class="header__logo" href=""
+          ><img src="./imeges/logo.svg" alt="logo"
+        /></a>
 
         <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="nav-link" class="class">О нас</a></li>
-            <li class="nav-item">
-              <a href="nav-link" class="class">Услуги и цены</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="" class="nav__link">О нас</a>
             </li>
-            <li class="nav-item">
-              <a href="nav-link" class="class">Мастера</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Услуги и цены</a>
             </li>
-            <li class="nav-item">
-              <a href="nav-link" class="class">Контакты</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Мастера</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <div class="contact">
-          <a href="tel:+380441111111" class="contact-link">+38 044 111 11 11</a>
-          <button class="btn-contact" type="button">Онлайн-запись</button>
+        <div class="contact--flex">
+          <a href="tel:+380441111111" class="contact__link"
+            >+38 044 111 11 11</a
+          >
+          <button class="contact__btn" type="button">Онлайн-запись</button>
         </div>
       </div>
     </header>
@@ -52,94 +58,103 @@
     <!-- !main -->
     <main>
       <section class="hero">
-        <div class="container">
-          <ul class="hero-list">
-            <li class="hero-item"><a href="" target="blank">Instagram</a></li>
-            <li class="hero-item"><a href="" target="blank">Youtube</a></li>
+        <div class="container hero__container">
+          <ul class="hero__list">
+            <li class="hero__item">
+              <a href="" class="hero__link" target="blank">Instagram</a>
+            </li>
+            <li class="hero__item">
+              <a href="" class="hero__link" target="blank">Youtube</a>
+            </li>
           </ul>
 
-          <p class="hero-subtitle" lang="en">A hair salon for men in Kyiv</p>
-          <h1 class="hero-title" lang="en">BarberShop</h1>
-          <p class="hero-text">
-            Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и
-            со вкусом.
-          </p>
+          <div class="hero__right">
+            <p class="hero__subtitle" lang="en">A hair salon for men in Kyiv</p>
+            <h1 class="hero__title" lang="en">BarberShop</h1>
+            <p class="hero__text">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно
+              и со вкусом.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <ul class="section-list">
-            <li class="section-item">
+      <section class="section section-about">
+        <div class="container container--flex">
+          <ul class="section-about__list">
+            <li class="section-about__item">
               <img src="./imeges/neck.jpg" alt="neck" width="270" />
             </li>
-            <li class="section-item">
+            <li class="section-about__item">
               <img src="./imeges/head.jpg" alt="head" width="270" />
             </li>
           </ul>
 
-          <div class="about-wrap">
-            <p class="about-subtitle">О нас</p>
-            <h2 class="about-title">Лучший Барбершоп твоего города</h2>
-            <p class="about-desc">
+          <div class="about wrap">
+            <p class="about__subtitle">О нас</p>
+            <h2 class="about__title">Лучший Барбершоп твоего города</h2>
+            <p class="about__desc">
               Если ты хочешь добавить в свой образ больше уверенности – тебе
               точно к нам.
             </p>
-            <p class="about-text">
+            <p class="about__text">
               Мы команда, которая никогда не останавливается на достигнутом и
               жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже
               никогда не сможешь быть прежним. Мы команда, которая всегда с
               клиентами "на одной волне". Поэтому, мы всегда готовы
               усовершенствовать каждого, кто к нам приходит!
             </p>
-            <button class="btn-contact" type="button">Онлайн-запись</button>
+            <button class="about__btn" type="button">Онлайн-запись</button>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section services">
         <div class="container">
-          <p class="services-subtitle">
+          <p class="services__subtitle">
             Проведи время в компании лучших мастеров
           </p>
-          <h2 class="services-title">Услуги и цены</h2>
-          <ul class="services-list">
-            <li class="services-item">
-              <p class="services-text">Мужская стрижка</p>
-              <p class="services-text">от 300 грн.</p>
-            </li>
-            <li class="services-list">
-              <p class="services-text">Стрижка бороды</p>
-              <p class="services-text">от 200 грн.</p>
-            </li>
-            <li class="services-list">
-              <p class="services-text">Стрижка усов</p>
-              <p class="services-text">от 200 грн.</p>
-            </li>
-            <li class="services-list">
-              <p class="services-text">Бритье опасной бритвой</p>
-              <p class="services-text">от 200 грн.</p>
-            </li>
-          </ul>
-          <ul class="services-list">
-            <li class="services-list">
-              <p>Cтрижка у стажера</p>
-              <p>от 50 грн.</p>
-            </li>
-            <li class="services-list">
-              <p class="services-text">Стрижка под насадку</p>
-              <p class="services-text">от 200 грн.</p>
-            </li>
-            <li class="services-list">
-              <p class="services-text">Детская стрижка (до 12 лет)</p>
-              <p class="services-text">от 300 грн.</p>
-            </li>
-            <li class="services-list">
-              <p class="services-text">Камуфлирование седины</p>
-              <p class="services-text">от 200 грн.</p>
-            </li>
-          </ul>
-          <button class="btn-contact" type="button">Онлайн-запись</button>
+          <h2 class="services__title">Услуги и цены</h2>
+          <div class="services--wrap">
+            <ul class="services__list services__list--left">
+              <li class="services__item">
+                <p class="services__text">Мужская стрижка</p>
+                <p class="services__text">от 300 грн.</p>
+              </li>
+              <li class="services__item">
+                <p class="services__text">Стрижка бороды</p>
+                <p class="services__text">от 200 грн.</p>
+              </li>
+              <li class="services__item">
+                <p class="services__text">Стрижка усов</p>
+                <p class="services__text">от 200 грн.</p>
+              </li>
+              <li class="services__item">
+                <p class="services__text">Бритье опасной бритвой</p>
+                <p class="services__text">от 200 грн.</p>
+              </li>
+            </ul>
+
+            <ul class="services__list services__list--right">
+              <li class="services__item">
+                <p class="services__text">Cтрижка у стажера</p>
+                <p class="services__text">от 50 грн.</p>
+              </li>
+              <li class="services__item">
+                <p class="services__text">Стрижка под насадку</p>
+                <p class="services__text">от 200 грн.</p>
+              </li>
+              <li class="services__item">
+                <p class="services__text">Детская стрижка (до 12 лет)</p>
+                <p class="services__text">от 300 грн.</p>
+              </li>
+              <li class="services__item">
+                <p class="services__text">Камуфлирование седины</p>
+                <p class="services__text">от 200 грн.</p>
+              </li>
+            </ul>
+          </div>
+          <button class="services__btn" type="button">Онлайн-запись</button>
         </div>
       </section>
 

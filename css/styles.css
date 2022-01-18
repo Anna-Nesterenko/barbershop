@@ -69,6 +69,9 @@ ul {
   margin-right: 70px;
 }
 
+.header__logo:hover {
+  transform: scale(1.5);
+}
 .container--flex {
   display: flex;
   align-items: center;
@@ -164,9 +167,11 @@ ul {
 }
 
 .hero__list {
+  padding-left: 23px;
+  padding-top: 23px;
   display: flex;
   align-items: center;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateX(-15px);
   transform-origin: top left;
 }
 
